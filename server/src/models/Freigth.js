@@ -1,7 +1,6 @@
-const { DataTypes, UUIDV4 } = require('sequelize');
+const { DataTypes } = require('sequelize');
 
 module.exports = (sequelize) => {
-  // defino el modelo
   sequelize.define('Freigth', {
     id: {
       type: DataTypes.INTEGER,
